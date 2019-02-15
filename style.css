@@ -1,0 +1,310 @@
+
+html{
+    font-size:18px;
+}
+
+.headerlogo{
+    background-color:black;
+    color:white;
+    padding:20px;
+    text-align: right;
+    width:1800px;
+    
+}
+
+
+
+
+.headerlogo h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1rem;
+    margin:0.66rem;
+    display:flex;
+    align-items:center;
+  }
+
+  @media only screen and (max-width:1024px) {  
+     
+    .headerlogo h1{
+       font-size:1.5rem;
+   }
+ }
+
+ 
+.logo{
+    height:1.5rem;
+    float:left;
+    
+}
+
+
+  
+
+
+.secondpart{
+    background-image:url("/Users/adem/Desktop/agent/images/moto.jpeg");
+    padding:40px;
+    height:490px;
+    margin-right:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom:1px solid;
+    width:1700px;
+    background-size: cover;
+   
+   
+  
+    
+}
+
+
+.secondpart h2{
+    font-family:Helvetica;
+    font-size:2rem;
+    font-weight:bold;
+    padding-right:75px;
+   
+}
+
+    
+
+.secondpart ,h4{
+    font-family:Helvetica;
+    font-size:1rem;
+    font-weight:bold;
+    
+  
+}
+
+  
+@media only screen and (max-width:480px){
+    h2 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:0.77rem;
+        font-weight:bold;
+    }
+    .h4{
+        font-family:helvetica;
+        font-size:1rem;
+        font-weight:bold;
+    }
+}
+    
+ 
+
+
+
+
+
+.thirdpart{
+  display:flex;
+  justify-content: space-around;
+  background-color:firebrick;
+  color:white;
+  padding:15px;
+  font-weight:bold;
+  width:1700px;
+}  
+
+.onlymenu{
+    display:none;
+}
+
+@media only screen and (max-width:1024px) {
+   .thirdpart{
+       display:none;
+   }
+   .onlymenu{
+       display:block;
+       text-align:center;
+   }
+}
+
+.divimages{
+    border:4px solid black;
+    margin:20px;
+   height:9rem;
+   padding:2rem;
+   
+  
+     
+}
+
+
+.divimages{
+    border:4px solid black;
+    display:flex;
+    margin:20px;
+    height:9rem; 
+    padding:2rem;
+   
+    
+   
+}
+
+.divimages{
+    border:4px solid black;
+    height:9rem;
+    padding:2rem;
+  
+    
+   
+}
+
+
+
+
+.imagesdiv p{
+   height:28px;
+   margin-bottom:250px;
+ 
+   
+   
+}
+
+.imagesdiv p{
+   height:28px;
+   margin-top:50px;
+   
+}
+
+.imagesdiv p{
+    height:20px;
+    margin:0.5rem;
+    margin-top:0.5rem;
+    width:150px;
+    
+}
+
+
+.imagesgallery p{
+    background:black;
+    color:white;
+    margin-left:20px;
+    margin-bottom:60px;
+
+}
+
+
+.forimages{
+    display:flex;
+    justify-content: space-around;
+    }
+    
+    
+.forimages .watch{
+        margin-top:20px;
+    }
+    
+.divimages{
+        width:30%;
+    }
+    
+.divimages p{
+        height:28px;
+    }
+
+    @media only screen and (max-width:1024px){
+        .divimages{
+            width:47%;
+        }
+        .glasses{
+            display:none;
+        }
+    }
+@media only screen and (max-width:480px){
+     .pens{
+         width:90%;
+     }
+     .divimages{
+         display:none;
+     }
+}
+
+
+.location{
+  background:black;
+  color:white;
+  width:35%;
+  height:28px;
+  display:block;
+  padding:1em 2em;
+  margin:4rem;
+ 
+  }
+
+
+
+
+.Hours{
+   background:black;
+   color:white;
+   width:35%;
+   height:28px;
+   padding: 1em 2em;
+  margin:4rem;
+}
+
+.container{
+    display:flex;
+    justify-content:space-between;
+    margin:30px;
+}
+
+@media only screen and (max-width:480px) {
+    .Hours{
+        height:90%;
+    }
+}
+
+.footer{
+    background-color:black;
+    color:white;
+   height:150px;
+   
+}
+
+.footer h3{
+    padding:30px;
+    height:5rem;
+  
+}
+
+
+
+
+.moveit ,h4 h2{
+ margin-top:35px;
+ background:black;
+ color:white;
+ height:85px;
+ padding-top:50px;
+ width:25rem;
+ 
+}
+
+
+
+.moveit h4 ,h2{
+   line-height:1.6rem;
+}
+
+
+.moveit{
+    padding:40px;
+}
+
+
+
+
+.sitecontainer{
+    max-width:960px;
+}
+
+@media only screen and (max-width:480px){
+    .moveit h2{
+        margin:2rem;
+    }
+}
