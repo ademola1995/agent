@@ -42,9 +42,9 @@ html{
 
 
 .secondpart{
-    background-image:url("/Users/adem/Desktop/agent/images/moto.jpeg");
+    background-image:url("./images/moto.jpeg");
     padding:40px;
-    height:490px;
+    height:420px;
     margin-right:300px;
     display:flex;
     justify-content: center;
@@ -279,7 +279,7 @@ html{
  margin-top:35px;
  background:black;
  color:white;
- height:85px;
+ height:123px;
  padding-top:50px;
  width:25rem;
  
